@@ -1,0 +1,220 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Keren Zhou's Homepage">
+    <meta name="author" content="Keren Zhou">
+	
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/site.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script language="JavaScript" type="text/javascript" src="js/jquery-1.10.0.min.js"></script>
+
+	</head>
+  
+    <body data-spy="scroll" data-target="#nav-bar">
+		<div class="head">
+			<div class="container" id="nav-bar">
+				<nav class="nav-content nav" role="tablist">
+				  <a class="nav-content-item nav-content-brand" href="#">Keren Zhou</a>
+				  <a class="nav-content-item active" href="#about">About</a>
+				  <a class="nav-content-item" href="#education">Education</a>
+				  <a class="nav-content-item" href="#research">Research</a>
+				  <a class="nav-content-item" href="#experience">Experience</a>
+				</nav>
+			</div>
+		</div>
+		
+		<div class="container" id="bio">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="contact">
+						<!--&nbsp;
+						<div id="photo">
+						</div>
+						-->
+						<ul class="mail">
+							<li><i class="fa fa-map-marker"></i>Beijing, China</li>
+							<li><i class="fa fa-envelope-o"></i>kerenzhou@outlook.com</li>
+						</ul>
+						<ul class="social">
+							<li><a href="https://twitter.com/ZhouKeren"><i class="fa fa-twitter"></i></a></li>                   
+							<li><a href="https://plus.google.com/u/0/+KerenZhou"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="https://cn.linkedin.com/in/kerenzhou"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="https://github.com/Jokeren"><i class="fa fa-github-alt"></i></a></li>       
+							<li class="last-item"><a href="http://stackoverflow.com/users/1290983/chain-ro"><i class="fa fa-stack-overflow"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<div class="content" id="about">
+						<h2>
+							About Me
+						</h2>
+						<p>
+						I am a graduate student in <a href="http://english.ict.cas.cn/">Institute of Computing Technology, Chinese Academy of Sciences</a>. Currently I am working as a research assistant at High Performance Research Center in professor <a href="http://www.ncic.ac.cn/~tgm">Guangming Tan</a>'s <a href="https://github.com/PAA-NCIC">PAA</a> group.
+						</p>
+						<p>Brief <a href="assets/resume.pdf">CV</a></p>
+					</div>
+					
+					<div class="content" id="education">
+						<h2>
+							Education
+						</h2>
+						<p>
+							<i class="fa fa-graduation-cap"></i> M.S. Computer Science, <i>2014 - 2017(expected)</i>
+							<dd>Institute of Computing Technology, Chinese Academy of Sciences</dd>
+						</p>
+						<p>
+							<i class="fa fa-graduation-cap"></i> B.E. Software Engineering, <i>2010 - 2014</i>
+							<dd>School of Software, Yunnan University</dd>
+						</p>
+					</div>
+					
+					<div class="content" id="research">
+						<h2>
+							Research
+						</h2>
+						<p>My major research area is <strong>parallel and distributed algorithms</strong>. I focus on developing efficient concurrent data structures, optimizing parallel algorithms on modern architectures. The cornerstone of my future research is the way to make full use of computing resources by combing algorithms and architectures. I also participate in data mining contests as a hobby.</p>
+						<h3>
+							Projects
+						</h3>
+						<ul>
+							<li>
+							<h4>
+								High Performance Neural Network
+							</h4>
+							</li>
+							<dd><i>Nov.2015 - current</i></dd>
+							<dd>Implementing parallel neural networks on modern architectures. Using SIMD based instructions to improve the performance.</dd>
+							<li>
+							<h4>
+								Neural Network for Biological Images
+							</h4>
+							<dd><i>Jun.2015 - Nov.2015</i></dd>
+							<dd>Design Convolution Neural Network to detect memberance. Participating in the <a href="http://brainiac2.mit.edu/isbi_challenge/leaders-board-new">ISBI challenge</a>, rank 24 (Team <i>Hello</i>).</dd>
+							</li>
+							<li>
+							<h4>
+								Efficient Data Mining Algorithms
+							</h4>
+							<dd><i>Nov.2014 - Feb.2015</i></dd>
+							<dd>Developing parallel graph mining algorithms. Source codes are opened on Github. (<a href="https://github.com/Jokeren/DataMining-gSpan">gSpan</a> & <a href="https://github.com/Jokeren/DataMining-Ullman">Ullman</a>)</dd>
+							</li>
+							<li>
+							<h4>
+								Concurrent Trees on Multi-core Systems
+							</h4>
+							<dd><i>Aug.2013 - current</i></dd>
+							<dd>
+								Survey concurrent data structures and develop concurrent trees. 
+							</dd>
+							</li>
+						</ul>
+						<h3>
+							Publications
+						</h3>
+						<ul class="publications">
+							<li><a href="assets/Survey on Multi-core.pdf">Survey on Multi-Core Data Structure in Shared-Memory</a>
+							<dd>Wei Zhou, <strong>Keren Zhou</strong>, Zhongzhi Ruan, Shaowen Yao, Depei Qian</dd>
+							<dd><em>Journal of Software, 2016,27(4) (in Chinese).</em></dd>
+							</li>
+							<li><a href="assets/BF-MapReduce.pdf">BF-MapReduce: A bloom filter Based Efficient Lightweight Search</a>
+							<dd>Zilong Tan, <strong>Keren Zhou</strong>, Hao Zhang, Wei Zhou</dd>
+							<dd><em>2015 IEEE International Conference on Collaboration and Internet Computing (CIC)</em></dd>
+							</li>
+							<li><a href="assets/Mobile Mining.pdf">Multi-Classes Feature Engineering with Sliding Window for Purchase Prediction in Mobile Commerce</a>
+							<dd>Qiang Li, Maojie Gu, <strong>Keren Zhou</strong>, Xiaoming Sun</dd>
+							<dd><em>2015 IEEE International Conference on Data Mining Workshop (ICDMW)</em></dd>
+							</li>
+							<li><a href="assets/Concurrent Skiplist Based.pdf">Concurrent Skiplist Based Double-Layer Index Framework for Cloud Data Processing</a>
+							<dd>Wei Zhou, Jin Lu, <strong>Keren Zhou</strong>, Shipu Wang, Shaowen Yao</dd>
+							<dd><em>Journal of Computer Research and Development, 2015, 52(7): 1531-1545. (in Chinese)</em></dd>
+							</li>
+							<li><a href="assets/Dynamic Vegas.pdf">Dynamic Vegas: A Competitive Congestion Control Strategy</a>
+							<dd><strong>Keren Zhou</strong>, Qian Yu, Zhenwei Zhu, Wenjia Liu</dd>
+							<dd><em>2014 Proceedings of International Conference on Computer Science and Information Technology</em></dd>
+							</li>
+						</ul>
+						<h3>
+							Articles
+						</h3>
+						<ul class="publications">
+							<li><a href="assets/Parse Concurrent Structure.pdf">Parse Concurrent Data Structures: BST as an Example</a>
+							<dd><strong>Keren Zhou</strong>, Guocheng Niu, Wuzhao Zhang, Xueqi Li, Wenqin Liu</dd>
+							<dd>arXiv:1505.03759 [cs.DC]</dd>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="content" id="experience">
+						<h2>
+							Experience
+						</h2>
+						<p>Research Assistant, Institute of Computing Technology, Chinese Academy of Sciences, Parallel Neural Network Optimization, <i>Jun.2015 - current</i>
+						</p>
+						<p>Intern, Baidu Inc, Beijing, Hadoop Workflow management, <i>Oct.2013 - Feb.2014</i>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--
+		<nav class="navbar navbar-fixed-top" style="background: #428bca; box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);">
+			<div class="container">
+				<div id="navbar-content" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+					<li class="active"><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="#research">Research</a></li>
+					<li><a href="#activities">Activities</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		-->
+	</body>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var lastId, 
+		topMenu = $("#nav-bar"),
+		topMenuHeight = topMenu.outerHeight()+20,
+		menuItems = topMenu.find("a"),
+		scrollItems = menuItems.map(function() {
+			var item = $($(this).attr("href"));
+			if (item.length) {
+				return item;
+			}
+		});
+
+		menuItems.click(function(e) {
+			var href = $(this).attr("href"),
+			topMenuHeight = topMenu.outerHeight() + 20,
+				offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1;
+			$('html, body').stop().animate({
+				scrollTop: offsetTop
+			}, 300);
+			e.preventDefault();
+		});
+
+		$(window).scroll(function() {
+			var fromTop = $(this).scrollTop() + topMenuHeight;
+
+			var cur = scrollItems.map(function() {
+				if ($(this).offset().top < fromTop) return this;
+			});
+			cur = cur[cur.length - 1];
+			var id = cur && cur.length ? cur[0].id : "";
+
+			if (lastId !== id) {
+				menuItems.filter("[href=#"+lastId+"]").removeClass("active");
+				lastId = id;
+				menuItems.filter("[href=#"+id+"]").addClass("active");
+			}
+		});
+	});
+	</script>
+</html>
