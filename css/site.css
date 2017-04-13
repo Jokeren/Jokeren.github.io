@@ -1,6 +1,7 @@
-.container {
-	width: 1120px;
-	display: block;
+@media (min-width: 1200px) {
+  .container {
+    width: 1120px;
+  }
 }
 
 /*head*/
@@ -99,6 +100,16 @@ div#photo {
 	padding-top: 10px;
 	margin-left: 40px;
 	border-radius: 8px;
+}
+
+/*content*/
+
+.content {
+	line-height: 1.5;
+}
+
+.content li {
+    margin-top: 2px;
 }
 
 /*bio*/

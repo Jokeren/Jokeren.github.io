@@ -1,0 +1,83 @@
+<html lang="en">
+  <head>
+    <title>Keren Zhou's Homepage</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Keren Zhou's Homepage">
+    <meta name="author" content="Keren Zhou">
+	
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/site.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script language="JavaScript" type="text/javascript" src="js/jquery-1.10.0.min.js"></script>
+
+	</head>
+	<body>
+		<div class="container content">
+		<h2>
+			Keren Zhou's Projects
+		</h2>
+		<ul>
+			<li>
+				<h3>
+					GPU Performance Analysis Tools
+				</h3>
+				<dd><i>March.2017 - current</i></dd>
+				<dd>We have proposed a paper about GPU performance analysis. Beyond the previous work, we are going to extend our framework for wider applications, multiple kernels, and several architectures. Besides, designing user-friendly interfaces is also a primary goal.
+				</dd>
+				<dd><i class="fa fa-tags" aria-hidden="true"></i> <button type="button" class="btn btn-success btn-xs">GPU</button> <button type="button" class="btn btn-success btn-xs">ASM</button> <button type="button" class="btn btn-primary btn-xs">Performance Model</button></dd>
+			</li>
+			<li>
+				<h3>
+					Kepler GEMM and Convolution
+				</h3>
+				<dd><i>Aug.2016 - Feb.2017</i></dd>
+				<dd>I wrote GEMM and Convolution functions using assembly codes for Kepler GPU and achieved better performance than cuBLAS (~20%) and cuDNN (~40%). We have a <a href="https://www.jokeren.tech/papers.html#paper6">paper</a> about GEMM design, in which I contributed to NT and NN implementations and adopted the functions into <a href="https://github.com/PAA-NCIC/blitz">blitz</a>. We also publish another <a href="https://www.jokeren.tech/papers.html#paper7">paper</a> that introduce the methodolgy we used for modeling GPU performance and analyzing program bottlenecks.
+				</dd>
+				<dd><i class="fa fa-tags" aria-hidden="true"></i> <button type="button" class="btn btn-success btn-xs">GPU</button> <button type="button" class="btn btn-success btn-xs">ASM</button></dd>
+			</li>
+			<li>
+				<h3>
+					High Performance Neural Network
+				</h3>
+			</li>
+				<dd><i>Nov.2015 - Dec.2016</i></dd>
+				<dd>I improved the performance of neural networks on several architectures. On CPU and MIC, I boosted the performance with vectorization and blocking techniques; on GPU, I wrote assembly codes to promote the instruction bandwidth and data reuse rate. The system is up to six times faster than <i>Caffe</i> and two times faster than <i>MKL2017</i> on two sockets E5-2670v2.</dd>
+				<dd><i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/PAA-NCIC/blitz">blitz</a></dd>
+				<dd><i class="fa fa-tags" aria-hidden="true"></i> <button type="button" class="btn btn-warning btn-xs">Deep Learning</button> <button type="button" class="btn btn-success btn-xs">CPU</button> <button type="button" class="btn btn-success btn-xs">Cache</button> <button type="button" class="btn btn-success btn-xs">ASM</button></dd>
+			<li>
+			<h3>
+				Neural Network for Biological Images
+			</h3>
+			<dd><i>Jun.2015 - Nov.2015</i></dd>
+			<dd>I designed a convolution neural network to detect memberance. I also used a similar network to participate in <a href="http://brainiac2.mit.edu/isbi_challenge/leaders-board-new">ISBI challenge</a> and ranked 24. (Team <i>Hello</i>)</dd>
+				<dd><i class="fa fa-tags" aria-hidden="true"></i> <button type="button" class="btn btn-warning btn-xs">Deep Learning</button></dd>
+			</li>
+			<li>
+			<h3>
+				Efficient Data Mining Algorithms
+			</h3>
+			<dd><i>Nov.2014 - Feb.2015</i></dd>
+			<dd>I developed several fast data mining algorithms; source codes are published on Github.</dd>
+			<dd><i class="fa fa-github-square" aria-hidden="true"></i> <a href="https://github.com/Jokeren/DataMining-gSpan">gSpan</a>, <a href="https://github.com/Jokeren/DataMining-Ullman">Ullman</a>, <a href="https://github.com/Jokeren/DataMining-GSP">GSP</a></dd>
+			<dd><i class="fa fa-tags" aria-hidden="true"></i> <button type="button" class="btn btn-danger btn-xs">Data Mining</button></dd>
+			</li>
+			<li>
+			<h3>
+				Concurrent Structures on Multi-core Systems
+			</h3>
+			<dd><i>Aug.2013 - current</i></dd>
+			<dd>
+				I surveyed concurrent data structures and evaluated their performance. I published two papers: one is a general method for developing concurrent structures [<a href="https://www.jokeren.tech/papers.html#paper1">1</a>]; the other is a p2p indexing system that utilizes concurrent skiplist [<a href="https://www.jokeren.tech/papers.html#paper0">0</a>]. 
+				
+				I also developed the first lock-free quadtree that achieves tremendous speedup comparing with traditional fine-grained lock versions. I wrote two technique reports to present the design [<a href="#paper2">2</a>, <a href="#paper3">3</a>].
+			</dd>
+				<dd><i class="fa fa-tags" aria-hidden="true"></i> <button type="button" class="btn btn-info btn-xs">Concurrency</button> <button type="button" class="btn btn-info btn-xs">Theory</button> <button type="button" class="btn btn-success btn-xs">CPU</button></dd>
+			</li>
+		</ul>
+		</div>
+	</body>
+</html>

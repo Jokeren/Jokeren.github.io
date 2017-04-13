@@ -23,15 +23,14 @@
 				  <a class="nav-content-item nav-content-brand" href="#">Keren Zhou</a>
 				  <a class="nav-content-item active" href="#about">About</a>
 				  <a class="nav-content-item" href="#education">Education</a>
-				  <a class="nav-content-item" href="#research">Research</a>
 				  <a class="nav-content-item" href="#experience">Experience</a>
+				  <a class="nav-content-item" href="#research">Research</a>
 				</nav>
 			</div>
 		</div>
-		
 		<div class="container" id="bio">
 			<div class="row">
-				<div class="col-xs-3 col-sm-3">
+				<div class="col-sm-3">
 					<div class="contact">
 						<ul class="mail">
 							<li><i class="fa fa-map-marker"></i>Beijing, China</li>
@@ -48,14 +47,19 @@
 					<h3>News</h3>
 					<div class="news">
 						<p>
-						11/2016 blitz v0.1 release: <a href="https://github.com/PAA-NCIC/blitz/releases/tag/v0.1">blitz v0.1</a>
+						04/2017 Update homepage
+						<p> 
+						03/2017 Keep contributing to <a href="https://github.com/torch/torch7">torch</a>
 						</p>
 						<p>
-						10/2016 blog updates: <a href="https://kerenzhou.blogspot.com/2016/10/programming-knl-architecture.html">Programming KNL--Architecture</a>
+						11/2016 Release blitz v0.1: <a href="https://github.com/PAA-NCIC/blitz/releases/tag/v0.1">blitz v0.1</a>
+						</p>
+						<p>
+						10/2016 Update blog: <a href="https://kerenzhou.blogspot.com/2016/10/programming-knl-architecture.html">Programming KNL--Architecture</a>
 						</p>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-8">
+				<div class="col-sm-8">
 					<div class="content" id="about">
 						<h2>
 							About Me
@@ -71,12 +75,30 @@
 							Education
 						</h2>
 						<p>
-							<i class="fa fa-graduation-cap"></i> M.S. Computer Science, <i>2014 - 2017(expected)</i>
+							<i class="fa fa-university"></i> M.S. Computer Science, <i>2014 - 2017 (expected)</i>
 							<dd>Institute of Computing Technology, Chinese Academy of Sciences</dd>
 						</p>
 						<p>
-							<i class="fa fa-graduation-cap"></i> B.E. Software Engineering, <i>2010 - 2014</i>
+							<i class="fa fa-graduation-cap"></i> B.E. Network Engineering, <i>2010 - 2014</i>
 							<dd>School of Software, Yunnan University</dd>
+						</p>
+					</div>
+					
+					<div class="content" id="experience">
+						<h2>
+							Experience
+						</h2>
+						<p>
+						<i class="fa fa-book"></i> Research Assistant, <i>Jun.2015 - current</i>
+						<dd>Nvidia-Sugon-ICT Deep Learning Joint Laboratory, Institute of Computing Technology</dd>
+						</p>
+						<p>
+						<i class="fa fa-book"></i> Research Assistant, <i>Jan.2013 - July.2014</i>
+						<dd>Intelligent Web Laboratory, School of Software, Yunnan University</dd>
+						</p>
+						<p>
+						<i class="fa fa-code"></i> SDE Intern, <i>Oct.2013 - Feb.2014</i>
+						<dd>Baidu Inc, Beijing</dd>
 						</p>
 					</div>
 					
@@ -86,86 +108,43 @@
 						</h2>
 						<p>My major research areas are <strong>parallel systems and concurrent algorithms</strong>. I focus on optimizing parallel systems and developing efficient concurrent data structures on modern architectures. I also participate in data mining contests as a hobby.</p>
 						<h3>
-							Projects
+							Projects <a href="https://jokeren.tech/projects.html" style="color:green">(Full List)</a>
 						</h3>
 						<ul>
 							<li>
-							<h4>
-								Kepler GEMM (<a href="https://github.com/PAA-NCIC/KeplerGEMM">KeplerGEMM</a>)
-							</h4>
-							<dd><i>Aug.2016 - Sep.2016</i></dd>
-							<dd>I wrote SGEMM functions using assembly codes for Kepler GPU and achieves better performance than Cublas. We have a <a href="https://github.com/PAA-NCIC/SGEMM">paper</a> about its design, which is going to appear in <i>PPOPP 2017</i>. I contributed to NT and NN implementations and adopted the functions into <a href="https://github.com/PAA-NCIC/blitz">blitz</a>.</dd>
-							</li>
-							<li>
-							<h4>
-								High Performance Neural Network (<a href="https://github.com/PAA-NCIC/blitz">blitz</a>)
-							</h4>
-							</li>
-							<dd><i>Nov.2015 - current</i></dd>
-							<dd>I improved the performance of neural networks on modern architectures. On CPU, I boosted the performance using a coarse-grained parallelism strategy with fine-grained vectorization and blocking techniques; on GPU, I wrote assembly codes to promote the instruction bandwidth and data reuse rate. Currently, the system is 5 times faster than Caffe in Alexnet and 12 times faster in Lenet on a 16 core machine.</dd>
-							<li>
-							<h4>
-								Neural Network for Biological Images
-							</h4>
-							<dd><i>Jun.2015 - Nov.2015</i></dd>
-							<dd>I designed a convolution neural network to detect memberance. I also used a similar network to participate in <a href="http://brainiac2.mit.edu/isbi_challenge/leaders-board-new">ISBI challenge</a> and ranked 24. (Team <i>Hello</i>)</dd>
-							</li>
-							<li>
-							<h4>
-								Efficient Data Mining Algorithms
-							</h4>
-							<dd><i>Nov.2014 - Feb.2015</i></dd>
-							<dd>I developed several fast data mining algorithms, and source codes are published on Github. (<a href="https://github.com/Jokeren/DataMining-gSpan">gSpan</a>, <a href="https://github.com/Jokeren/DataMining-Ullman">Ullman</a>, <a href="https://github.com/Jokeren/DataMining-GSP">GSP</a>)</dd>
-							</li>
-							<li>
-							<h4>
-								Concurrent Structures on Multi-core Systems
-							</h4>
-							<dd><i>Aug.2013 - current</i></dd>
-							<dd>
-								I surveyed concurrent data structures and evaluated their performance. I published two papers: one is a general method for developing concurrent structures [<a href="#paper2">2</a>]; the other is a p2p indexing system that utilizes concurrent skiplist [<a href="#paper6">6</a>]. 
-								
-								I also developed the first lock-free Quadtree that achieves tremendous speedup comparing with traditional fine-grained lock versions. I wrote two technique reports to present the design [<a href="#paper1">1</a>, <a href="#paper5">5</a>].
-							</dd>
+								<h4>
+									GPU Performance Analysis Tools
+								</h4>
+								<dd><i>March.2017 - current</i></dd>
+								<dd>We have proposed a paper about GPU performance analysis. Beyond the previous work, we are going to extend our framework for wider applications, multiple kernels, and several architectures. Besides, designing user-friendly interfaces is also a primary goal.
+								</dd>
 							</li>
 						</ul>
 						<h3>
-							Publications
+							Publications <a href="https://jokeren.tech/publications.html" style="color:green">(Full List)</a>
 						</h3>
-						<ul class="publications">
-							<li id="paper0"><a href="https://xiuxiazhang.github.io/paper/sgemm.pdf">Demystifying GPU Microarchitecture to Tune SGEMM Performance</a>
-							<dd>Xiuxia Zhang, Guangming Tan, Shuangbai Xue, Jiajia Li, <strong>Keren Zhou</strong>, Mingyu Chen</dd>
-							<dd><em>22nd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP 2017)</em></dd>
-							</li>
-							<li id="paper1"><a href="assets/Quadboost.pdf">Quadboost: A Scalable Concurrent Quadtree</a>
-							<dd><strong>Keren Zhou</strong>, Guangming Tan, Wei Zhou</dd>
-							<dd>arXiv:1607.03292 [cs.DC]</dd>
-							</li>
-							<li id="paper2"><a href="assets/Survey on Multi-core.pdf">Study on Multi-Core Data Structure in Shared-Memory</a>
-							<dd>Wei Zhou, <strong>Keren Zhou</strong>, Zhongzhi Ruan, Shaowen Yao, Depei Qian</dd>
-							<dd><em>Journal of Software, 2016,27(4) (in Chinese).</em></dd>
-							</li>
-							<li id="paper3"><a href="assets/BF-MapReduce.pdf">BF-MapReduce: A bloom filter Based Efficient Lightweight Search</a>
-							<dd>Zilong Tan, <strong>Keren Zhou</strong>, Hao Zhang, Wei Zhou</dd>
-							<dd><em>2015 IEEE International Conference on Collaboration and Internet Computing (CIC)</em></dd>
-							</li>
-							<li id="paper4"><a href="assets/Mobile Mining.pdf">Multi-Classes Feature Engineering with Sliding Window for Purchase Prediction in Mobile Commerce</a>
-							<dd>Qiang Li, Maojie Gu, <strong>Keren Zhou</strong>, Xiaoming Sun</dd>
-							<dd><em>2015 IEEE International Conference on Data Mining Workshop (ICDMW)</em></dd>
-							</li>
-							<li id="paper5"><a href="assets/Parse Concurrent Structure.pdf">Parse Concurrent Data Structures: BST as an Example</a>
-							<dd><strong>Keren Zhou</strong>, Guocheng Niu, Wuzhao Zhang, Xueqi Li, Wenqin Liu</dd>
-							<dd>arXiv:1505.03759 [cs.DC]</dd>
-							</li>
-							<li id="paper6"><a href="assets/Concurrent Skiplist Based.pdf">Concurrent Skiplist Based Double-Layer Index Framework for Cloud Data Processing</a>
-							<dd>Wei Zhou, Jin Lu, <strong>Keren Zhou</strong>, Shipu Wang, Shaowen Yao</dd>
-							<dd><em>Journal of Computer Research and Development, 2015, 52(7): 1531-1545. (in Chinese)</em></dd>
-							</li>
-							<li id="paper7"><a href="assets/Dynamic Vegas.pdf">Dynamic Vegas: A Competitive Congestion Control Strategy</a>
-							<dd><strong>Keren Zhou</strong>, Qian Yu, Zhenwei Zhu, Wenjia Liu</dd>
-							<dd><em>2014 Proceedings of International Conference on Computer Science and Information Technology</em></dd>
-							</li>
-						</ul>
+							<ul>
+								<li><span style="color:green">[ICS'17]</span> A Performance Analysis Framework for Exploiting GPU Microarchitectural Capability
+								<dd><strong>Keren Zhou</strong>, Guangming Tan, Xiuxia Zhang, Chaowei Wang, Ninghui Sun</dd>
+								<dd><em>26th ACM International Conference on Supercomputing</em></dd>
+								</li>
+								<li><span style="color:green">[PPoPP'17]</span> <a href="https://xiuxiazhang.github.io/paper/sgemm.pdf">Demystifying GPU Microarchitecture to Tune SGEMM Performance</a>
+								<dd>Xiuxia Zhang, Guangming Tan, Shuangbai Xue, Jiajia Li, <strong>Keren Zhou</strong>, Mingyu Chen</dd>
+								<dd><em>22nd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming</em></dd>
+								</li>
+								<li><a href="assets/Quadboost.pdf">Quadboost: A Scalable Concurrent Quadtree</a>
+								<dd><strong>Keren Zhou</strong>, Guangming Tan, Wei Zhou</dd>
+								<dd>arXiv:1607.03292 [cs.DC]</dd>
+								</li>
+								<li><span style="color:green">[CIC'15]</span> <a href="assets/BF-MapReduce.pdf">BF-MapReduce: A bloom filter Based Efficient Lightweight Search</a>
+								<dd>Zilong Tan, <strong>Keren Zhou</strong>, Hao Zhang, Wei Zhou</dd>
+								<dd><em>2015 IEEE International Conference on Collaboration and Internet Computing</em></dd>
+								</li>
+								<li><span style="color:green">[ICDM'15]</span> <a href="assets/Mobile Mining.pdf">Multi-Classes Feature Engineering with Sliding Window for Purchase Prediction in Mobile Commerce</a>
+								<dd>Qiang Li, Maojie Gu, <strong>Keren Zhou</strong>, Xiaoming Sun</dd>
+								<dd><em>2015 IEEE International Conference on Data Mining Workshop</em></dd>
+								</li>
+							</ul>
 						<h3>
 							Talks
 						</h3>
@@ -176,35 +155,9 @@
 							</li>
 						</ul>
 					</div>
-					
-					<div class="content" id="experience">
-						<h2>
-							Experience
-						</h2>
-						<p><i>Jun.2015 - current</i>, Research Assistant, Nvidia-Sugon-ICT Deep Learning Joint Laboratory, Institute of Computing Technology, Chinese Academy of Sciences.
-						</p>
-						<p><i>Jan.2013 - July.2014</i>, Research Assistant, Intelligent Web Laboratory, School of Software, Yunnan University.
-						</p>
-						<p><i>Oct.2013 - Feb.2014</i>, Intern, Baidu Inc, Beijing, Hadoop workflow management.
-						</p>
-					</div>
 				</div>
 			</div>
 		</div>
-		<!--
-		<nav class="navbar navbar-fixed-top" style="background: #428bca; box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);">
-			<div class="container">
-				<div id="navbar-content" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav">
-					<li class="active"><a href="#about">About</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="#research">Research</a></li>
-					<li><a href="#activities">Activities</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		-->
 	</body>
 	<script type="text/javascript">
 	$(document).ready(function(){
