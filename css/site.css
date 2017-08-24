@@ -124,3 +124,8 @@ div#photo {
 .publications li {
     padding: 5px;
 }
+
+/*underline*/
+.content h2 {
+	border-bottom: 1px solid #aaaaaa;
+}
